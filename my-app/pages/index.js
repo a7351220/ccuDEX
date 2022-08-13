@@ -517,9 +517,9 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        <a target="_blank" href="https://rinkeby.etherscan.io/address/0x2413b1B1a8766994fd7337E2689B0A1f1277F10E">
-          合約地址
-        </a>
+        合約地址:https://rinkeby.etherscan.io/address/0x2413b1B1a8766994fd7337E2689B0A1f1277F10E
+          
+        
       </footer>
     </div>
   );
