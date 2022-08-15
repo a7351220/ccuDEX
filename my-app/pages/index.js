@@ -378,7 +378,7 @@ export default function Home() {
                   className={styles.input}
                 />
                 <button className={styles.button1} onClick={_addLiquidity}>
-                  Add
+                  添加流動性
                 </button>
               </div>
             ) : (
@@ -456,7 +456,7 @@ export default function Home() {
               setSwapAmount("");
             }}
           >
-            <option value="eth">Ethereum</option>
+            <option value="eth">ETH</option>
             <option value="cryptoDevToken">CCU 代幣</option>
           </select>
           <br />
